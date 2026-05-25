@@ -23,15 +23,19 @@ from Anthropic documentation and my own work where relevant.
 10. Stitch book        scripts/stitch_book.py -> book/book.md (ready for Claude in Design)
 ```
 
-The pipeline is driven by a Claude Code skill (`skills/chapter-pipeline/`)
-that orchestrates scripts and asks for human review at appropriate
-checkpoints.
+The drafting work (steps 6-9) is handled by the `skills/talk-to-chapter/`
+Claude Code skill, which orchestrates the chapter writing and asks for
+human review at appropriate checkpoints.
 
 ## Current status
 
 - **Step 1 (transcription)**: implemented in `scripts/yt_transcribe.py`
-  and `scripts/transcribe_playlist.py`. Tested.
-- **Steps 2-10**: not yet built. Next: `extract_summary.py`.
+  and `scripts/transcribe_playlist.py`. Tested on 24-video playlist.
+- **Step 2 (summarise)**: implemented in `scripts/extract_summary.py`.
+  Heuristic mode (default) and Claude mode (`--use-claude`).
+- **Steps 6-9 (draft, audit, cross-ref, index)**: covered by the
+  `skills/talk-to-chapter/` skill.
+- **Steps 3, 5, 10**: not yet built.
 
 ## Directory structure
 
@@ -50,16 +54,22 @@ docs/            Design decisions, pipeline notes, this project's why.
 python -m venv .venv
 source .venv/bin/activate           # Windows: .venv\Scripts\activate
 
-# 2. Install dependencies.
-pip install -U yt-dlp openai-whisper torch
+# 2. Install PyTorch with CUDA (see https://pytorch.org/get-started/locally/).
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
-# 3. ffmpeg must be on PATH:
+# 3. Install remaining dependencies.
+pip install -U yt-dlp openai-whisper
+
+# 4. ffmpeg must be on PATH:
 #    macOS:  brew install ffmpeg
 #    Ubuntu: sudo apt install ffmpeg
 #    Windows: winget install ffmpeg
 
-# 4. (Optional) Set Whisper model cache somewhere with space.
+# 5. (Optional) Set Whisper model cache somewhere with space.
 export WHISPER_CACHE_DIR=/path/to/cache
+
+# 6. (Optional) Anthropic API key for Claude-powered extraction (step 2).
+export ANTHROPIC_YT_CLAUDE_LONDON_API_KEY=sk-ant-...
 ```
 
 ## First run
@@ -67,18 +77,18 @@ export WHISPER_CACHE_DIR=/path/to/cache
 ```bash
 # Dry run against Claude Academy to see what's in the playlist.
 python scripts/transcribe_playlist.py \
-    "https://www.youtube.com/playlist?list=PLkhpYBUaBOP_W7gjN95T1k_kjBUEXuPr7" \
+    "https://www.youtube.com/playlist?list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps" \
     --dry-run
 
 # Smoke test on first two videos.
 python scripts/transcribe_playlist.py \
-    "https://www.youtube.com/playlist?list=PLkhpYBUaBOP_W7gjN95T1k_kjBUEXuPr7" \
+    "https://www.youtube.com/playlist?list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps" \
     --limit 2 --model large-v3 --language en \
     --prompt "Claude Code, Anthropic, MCP, hooks, skills, sub-agents"
 
 # Full run (resumes from where smoke test stopped).
 python scripts/transcribe_playlist.py \
-    "https://www.youtube.com/playlist?list=PLkhpYBUaBOP_W7gjN95T1k_kjBUEXuPr7" \
+    "https://www.youtube.com/playlist?list=PLmWCw1CzcFilPJdvw6scjHjbBripZWFps" \
     --model large-v3 --language en \
     --prompt "Claude Code, Anthropic, MCP, hooks, skills, sub-agents, KV cache"
 ```
@@ -89,3 +99,5 @@ python scripts/transcribe_playlist.py \
 - `docs/pipeline.md`: detailed pipeline specification, `book_index.json` shape
 - `scripts/yt_transcribe.py`: single-video transcriber (Whisper + yt-dlp)
 - `scripts/transcribe_playlist.py`: playlist driver
+- `scripts/extract_summary.py`: summary, entity, and quote extraction (step 2)
+- `skills/talk-to-chapter/`: Claude Code skill for chapter drafting (steps 6-9)
