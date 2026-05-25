@@ -1,0 +1,19 @@
+# rules_fr.txt
+# ------------
+# French substitution rules, auto-loaded by yt_transcribe.py when the
+# transcription language is 'fr'. Common rules and the built-in FR rules
+# are applied first; this file is layered on top.
+#
+# Built-in FR rules already cover: COVID-19, SARS-CoV-2, VIH, OMS, Inserm,
+# CHU/CHR. Add anything else your transcripts mangle.
+
+# Institutions
+\bap[\s\-]?hp\b            => AP-HP
+\bah[\s\-]?paris\b         => AP-HP
+\binstitut\s+pasteur\b     => Institut Pasteur
+
+# Clinical context (extend as you collect mis-transcriptions)
+\bantibiotherapie\b        => antibiothérapie
+\binfectiologie\b          => infectiologie
+\bbpco\b                   => BPCO
+\bvih[\s\-]?sida\b         => VIH-SIDA

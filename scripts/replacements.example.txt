@@ -1,0 +1,23 @@
+# replacements.example.txt
+# ------------------------
+# Extra substitutions for yt_transcribe.py.
+# Format: one rule per line, 'pattern => replacement'.
+# Patterns are Python regex, applied case-insensitively.
+# Lines starting with '#' are ignored.
+#
+# Three ways to use this file:
+#
+# 1. Pass it explicitly:
+#       python yt_transcribe.py <url> --replacements replacements.txt
+#
+# 2. Name it rules_<lang>.txt next to the script (e.g. rules_nl.txt,
+#    rules_fr.txt). The script auto-loads the one matching the detected
+#    or specified language.
+#
+# 3. Use both: rules_nl.txt is loaded automatically, --replacements is
+#    layered on top. Later rules override earlier ones.
+
+# Add your own rules below. Examples:
+\bsome_term_whisper_mangles\b   => Correct Term
+\bphd\b                         => PhD
+\bemr\b                         => EMR

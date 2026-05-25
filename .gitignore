@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+*.egg
+
+# Whisper model cache
+.cache/whisper/
+
+# Audio files (downloaded by yt-dlp, not needed in repo)
+*.m4a
+*.webm
+*.mp3
+*.wav
+*.ogg
+*.opus
+
+# Generated chapter content (transcripts and audio sources)
+chapters/*/source/transcript.txt
+chapters/*/source/*.m4a
+chapters/*/source/*.webm
+chapters/*/source/*.mp3
+chapters/*/source/*.wav
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini

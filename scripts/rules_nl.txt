@@ -1,0 +1,26 @@
+# rules_nl.txt
+# ------------
+# Dutch substitution rules, auto-loaded by yt_transcribe.py when the
+# transcription language is 'nl'. Common rules and the built-in NL rules
+# are applied first; this file is layered on top.
+#
+# Built-in NL rules already cover: UZ Gent, UGent, RIZIV, BCFI, BSIM, HGR,
+# CSS, BAPCOC, COVID-19, SARS-CoV-2, HIV, TB, DRC.
+# Add anything else your transcripts mangle.
+
+# Belgian medical institutions / abbreviations
+\bnobel\b                  => Knobel       # whisper sometimes mishears clinic names
+\bku\s*leuven\b            => KU Leuven
+\bvub\b                    => VUB
+\bulg\b                    => ULg
+\buclouvain\b              => UCLouvain
+
+# Clinical context
+\bhuisarts(en)?\b          => huisarts\1
+\bspoedopname\b            => spoedopname
+\bdienstvergadering\b      => dienstvergadering
+\bantibiogram\b            => antibiogram
+
+# Drug / pathogen names Whisper often gets wrong (add as you encounter them)
+# \bvancomycine\b          => vancomycine
+# \bceftriaxon\b           => ceftriaxon

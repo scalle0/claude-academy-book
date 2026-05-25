@@ -1,0 +1,26 @@
+[project]
+name = "claude-academy-book"
+version = "0.1.0"
+description = "Build a technical-reference markdown book from transcripts of Anthropic's Claude Academy YouTube talks."
+requires-python = ">=3.11"
+dependencies = [
+    "openai-whisper",
+    "yt-dlp",
+    # torch: install separately with CUDA support for GPU transcription.
+    # See https://pytorch.org/get-started/locally/ for the right command.
+    # CPU-only fallback works but is 10-20x slower on large models.
+    "torch",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
