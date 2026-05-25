@@ -10,9 +10,14 @@ dependencies = [
     # See https://pytorch.org/get-started/locally/ for the right command.
     # CPU-only fallback works but is 10-20x slower on large models.
     "torch",
+    "python-dotenv",
+    "requests",
 ]
 
 [project.optional-dependencies]
+claude = [
+    "anthropic",
+]
 dev = [
     "pytest",
     "ruff",

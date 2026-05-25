@@ -61,6 +61,13 @@ import re
 import sys
 from pathlib import Path
 
+# Load .env from project root (for ANTHROPIC_YT_CLAUDE_LONDON_API_KEY)
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+except ImportError:
+    pass  # python-dotenv is optional; env vars can be set manually
+
 
 # ----------------------------------------------------------------------
 # Known entities: seed lists for heuristic extraction

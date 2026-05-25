@@ -80,6 +80,8 @@ This step exists because speakers describe features as they existed at
 recording time, which may be months out of date. The enrichment notes
 flag what has changed so the chapter can use current terminology.
 
+Or the features might be up-to-date but more technical data can be found.
+
 Implementation: most naturally done by Claude in the chat using
 web_fetch on `docs.claude.com` URLs. No dedicated script needed.
 
