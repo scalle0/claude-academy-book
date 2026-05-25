@@ -1,0 +1,61 @@
+{
+  "products": [
+    "Microsoft Foundry",
+    "Claude",
+    "Claude Sonnet 4.6",
+    "Visual Studio Code",
+    "VS Code",
+    "GitHub",
+    "Visual Studio",
+    "Copilot Studio",
+    "Microsoft Agent Framework",
+    "Microsoft Defender",
+    "Microsoft Purview",
+    "EntraID",
+    "Skillable",
+    "SAP",
+    "ServiceNow"
+  ],
+  "features": [
+    "Model Context Protocol",
+    "MCP",
+    "MCP servers",
+    "playground environment",
+    "built-in connectors",
+    "observability",
+    "governance",
+    "security compliance",
+    "evaluation tools",
+    "monitoring tools",
+    "fine tuning",
+    "system prompts",
+    "API keys",
+    "enterprise features"
+  ],
+  "concepts": [
+    "AI agents",
+    "agentic systems",
+    "multi-step reasoning",
+    "long context",
+    "agent orchestration",
+    "enterprise deployment",
+    "development to production cycle",
+    "agent tools",
+    "external systems integration",
+    "prompts",
+    "resources",
+    "functions",
+    "customer registration",
+    "order processing"
+  ],
+  "people": [
+    "Marlene Mangami",
+    "Liam Hampton",
+    "Chris Snoring"
+  ],
+  "papers_or_docs": [
+    "aka.ms workshop URL",
+    "Foundry Docs",
+    "Microsoft Learn"
+  ]
+}

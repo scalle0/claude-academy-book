@@ -1,0 +1,40 @@
+{
+  "products": [
+    "Claude",
+    "Claude Code",
+    "Cowork",
+    "VS Code",
+    "Langsmith",
+    "Braintrust"
+  ],
+  "features": [
+    "thinking",
+    "effort levels",
+    "prompt caching",
+    "context engineering",
+    "MCP",
+    "adaptive thinking"
+  ],
+  "concepts": [
+    "evaluation design",
+    "LLM as judge",
+    "Pareto frontier",
+    "cost-accuracy frontier",
+    "context hygiene",
+    "append only strategy",
+    "cache hit rates",
+    "token efficiency"
+  ],
+  "people": [
+    "Lucas",
+    "Tarek"
+  ],
+  "papers_or_docs": [
+    "TauBench",
+    "SWE Bench Verified",
+    "BrowseCom",
+    "model card",
+    "prompting guides",
+    "cwc26.short.gy/workshops"
+  ]
+}

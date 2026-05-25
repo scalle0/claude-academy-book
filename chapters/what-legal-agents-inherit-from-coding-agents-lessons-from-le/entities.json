@@ -1,0 +1,41 @@
+{
+  "products": [
+    "Legora",
+    "Claude Code",
+    "Microsoft Word",
+    "Tabular Review",
+    "Anthropic agent SDK",
+    "VS Code",
+    "ESLint"
+  ],
+  "features": [
+    "planning mode",
+    "human in the loop",
+    "tool call approval",
+    "sandboxes",
+    "sub-agents",
+    "document editing",
+    "read-edit-verify loop",
+    "intermediate representation",
+    "linting",
+    "citations",
+    "redlining",
+    "structured data extraction"
+  ],
+  "concepts": [
+    "coding agents",
+    "legal agents",
+    "document editing loops",
+    "multi-model handoff",
+    "intermediate representation",
+    "static type checking",
+    "due diligence",
+    "reinforcement learning",
+    "fine-tuning",
+    "tool calling trajectories"
+  ],
+  "people": [
+    "Jacob Emmerling"
+  ],
+  "papers_or_docs": []
+}

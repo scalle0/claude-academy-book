@@ -1,0 +1,39 @@
+{
+  "products": [
+    "Claude Design",
+    "Claude Code",
+    "MCP",
+    "Skills",
+    "Claude Chrome extension",
+    "VS Code",
+    "GitHub"
+  ],
+  "features": [
+    "visual artifacts",
+    "prototypes",
+    "multiplayer",
+    "handoff to Claude code",
+    "feedback clustering",
+    "token limits",
+    "exports",
+    "MCP integrations"
+  ],
+  "concepts": [
+    "Anthropic Labs",
+    "bet factory",
+    "lean startup methodologies",
+    "iteration loops",
+    "prototype-driven development",
+    "coordination overhead",
+    "dogfooding",
+    "hands-free audio"
+  ],
+  "people": [
+    "Dan Carey",
+    "Nate"
+  ],
+  "papers_or_docs": [
+    "agent SDK",
+    "Opus 4.7"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "products": [
+    "Claude Code",
+    "Claude platform",
+    "Claude API",
+    "VS Code",
+    "Anthropic console",
+    "Replit",
+    "Cursor",
+    "Lovable",
+    "Quora",
+    "Hex",
+    "Bolt",
+    "Gong",
+    "AWS"
+  ],
+  "features": [
+    "prompt caching",
+    "context window",
+    "tool search",
+    "programmatic tool calling",
+    "conversation compaction",
+    "advisor strategy",
+    "auto caching",
+    "fast mode",
+    "analytics dashboard",
+    "cache hit rate monitoring",
+    "MCP"
+  ],
+  "concepts": [
+    "context engineering",
+    "cache hit rate",
+    "token consumption",
+    "rate limits",
+    "time to first token",
+    "context threshold",
+    "watermelon problem",
+    "Pareto optimal",
+    "agent transcripts"
+  ],
+  "people": [
+    "Puneet Shah",
+    "Ben",
+    "Bobby",
+    "Lisa",
+    "Jeremy"
+  ],
+  "papers_or_docs": [
+    "console.Anthropic.com",
+    "docs.claude.com",
+    "Claude API skill"
+  ]
+}

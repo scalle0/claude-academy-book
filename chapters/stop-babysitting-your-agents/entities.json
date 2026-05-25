@@ -1,0 +1,45 @@
+{
+  "products": [
+    "Claude Code",
+    "VS Code",
+    "Chrome MCP",
+    "MonkeyType",
+    "Claude Code desktop app",
+    "Claude Agents",
+    "Slack",
+    "Asana",
+    "Linear",
+    "Datadog"
+  ],
+  "features": [
+    "MCP",
+    "skills",
+    "verification loops",
+    "multi-clauding",
+    "background loops",
+    "routines",
+    "remote control",
+    "agent view",
+    "slash loop command",
+    "slash remote-control"
+  ],
+  "concepts": [
+    "verification",
+    "autonomous circuits",
+    "hill climbing",
+    "session management",
+    "state setup",
+    "auth blockers",
+    "event-based triggers",
+    "time-based triggers",
+    "smoke testing"
+  ],
+  "people": [
+    "Sid Bindisaria"
+  ],
+  "papers_or_docs": [
+    "Claude.md file",
+    "monkeytype.com",
+    "claudai.com"
+  ]
+}

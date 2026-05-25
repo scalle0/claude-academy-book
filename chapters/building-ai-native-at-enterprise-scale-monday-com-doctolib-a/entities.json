@@ -1,0 +1,41 @@
+{
+  "products": [
+    "Claude",
+    "Monday.com",
+    "Doctolib",
+    "Delivery Hero",
+    "HeroGen",
+    "Monday Vibe",
+    "Claude Code",
+    "GitHub",
+    "Jira",
+    "GitLab"
+  ],
+  "features": [
+    "skills marketplace",
+    "council of agents",
+    "autonomous software delivery",
+    "agent orchestration",
+    "pull request automation",
+    "application builder",
+    "identity systems"
+  ],
+  "concepts": [
+    "monolithic architecture",
+    "distributed systems",
+    "API-first approach",
+    "success rates",
+    "A-B testing",
+    "model evaluation",
+    "agent as first-class user",
+    "multi-model systems"
+  ],
+  "people": [
+    "Rebecca",
+    "Ruslan",
+    "Alex",
+    "Ulrich Schaefer",
+    "Boris"
+  ],
+  "papers_or_docs": []
+}

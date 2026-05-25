@@ -1,0 +1,51 @@
+{
+  "products": [
+    "Claude Code",
+    "Claude.ai",
+    "VS Code",
+    "Claude mobile app",
+    "Claude Code desktop",
+    "GitHub",
+    "Spotify",
+    "Google Cloud Platform",
+    "AWS"
+  ],
+  "features": [
+    "remote control",
+    "full-screen mode",
+    "terminal user interface",
+    "auto mode",
+    "work trees",
+    "auto memory",
+    "code review",
+    "routines",
+    "agents view",
+    "clickable elements",
+    "webhooks",
+    "GitHub integration",
+    "progressive discovery"
+  ],
+  "concepts": [
+    "context window",
+    "virtualized scroll back",
+    "multi-agent analysis",
+    "multi-phase review",
+    "destructive actions",
+    "prompt injection",
+    "asynchronous coding",
+    "workflow automation",
+    "session management",
+    "memory indexing"
+  ],
+  "people": [
+    "Ralph",
+    "Boris"
+  ],
+  "papers_or_docs": [
+    "claude.json",
+    "claude.md",
+    "memory.md",
+    "change log",
+    "docs.claude.com"
+  ]
+}

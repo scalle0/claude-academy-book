@@ -1,0 +1,43 @@
+{
+  "products": [
+    "Lovable",
+    "GPT-engineer",
+    "Stack Overflow",
+    "GitHub",
+    "VS Code",
+    "Framer Motion",
+    "Slack"
+  ],
+  "features": [
+    "Lovable Overflow",
+    "venting tool",
+    "vent-send-feedback",
+    "code-copy tool",
+    "chat interface",
+    "live preview",
+    "server-side rendering",
+    "client-side rendering",
+    "auto-complete",
+    "Ralph looping"
+  ],
+  "concepts": [
+    "self-healing",
+    "stuck detection",
+    "is_stuck metric",
+    "knowledge corpus",
+    "success ratio tracking",
+    "knowledge pruning",
+    "publish rate",
+    "production incidents",
+    "fine tuning",
+    "eval coverage",
+    "context window modification"
+  ],
+  "people": [
+    "Anton"
+  ],
+  "papers_or_docs": [
+    "docs.claude.com",
+    "Lovealot.com"
+  ]
+}

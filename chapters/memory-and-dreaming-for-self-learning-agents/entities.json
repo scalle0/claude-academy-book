@@ -1,0 +1,46 @@
+{
+  "products": [
+    "Claude",
+    "Claude Code",
+    "Claude Managed Agents",
+    "Model Context Protocol",
+    "Agent SDK",
+    "Skills",
+    "Memory",
+    "Dreaming"
+  ],
+  "features": [
+    "MCP",
+    "memory",
+    "dreaming",
+    "skills",
+    "context window",
+    "version control",
+    "audit trails",
+    "optimistic concurrency control",
+    "hierarchical memory stores",
+    "read-only scopes",
+    "read-write scopes",
+    "CRUD operations",
+    "exports",
+    "redactions"
+  ],
+  "concepts": [
+    "self-learning agents",
+    "organizational memory",
+    "file system architecture",
+    "multi-agent systems",
+    "cross-session memory",
+    "batch processing",
+    "out-of-band processing",
+    "session transcripts",
+    "test time compute",
+    "thinking models",
+    "enterprise-grade controls",
+    "long-horizon tasks"
+  ],
+  "people": [
+    "Ravi"
+  ],
+  "papers_or_docs": []
+}

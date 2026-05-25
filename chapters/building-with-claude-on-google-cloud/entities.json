@@ -1,0 +1,48 @@
+{
+  "products": [
+    "Claude Code",
+    "Google Cloud",
+    "Cloud Run",
+    "Cloud Build",
+    "Cloud Deploy",
+    "BigQuery",
+    "Looker",
+    "Firestore",
+    "GitHub",
+    "VS Code",
+    "Figma"
+  ],
+  "features": [
+    "MCP server",
+    "planning mode",
+    "subagents",
+    "Google Cloud skills",
+    "developer knowledge API",
+    "application default credentials",
+    "provisioned throughput",
+    "multi-region endpoints",
+    "CI/CD pipelines",
+    "input validation",
+    "service account permissions"
+  ],
+  "concepts": [
+    "pay-per-token pricing",
+    "message caps",
+    "wireframing",
+    "security review",
+    "continuous deployment",
+    "analytics dashboard",
+    "data pipeline",
+    "serverless functions",
+    "development lifecycle",
+    "production promotion"
+  ],
+  "people": [
+    "Iman Nardini"
+  ],
+  "papers_or_docs": [
+    "developer knowledge API documentation",
+    "Google Cloud skills documentation",
+    "Claude Code documentation"
+  ]
+}

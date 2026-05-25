@@ -1,0 +1,40 @@
+{
+  "products": [
+    "Claude Code",
+    "Claude Agent SDK",
+    "GitHub",
+    "Slack",
+    "Google Drive",
+    "Datadog",
+    "Grafana",
+    "Twilio"
+  ],
+  "features": [
+    "Routines",
+    "MCP",
+    "connectors",
+    "webhooks",
+    "GitHub events",
+    "time-based triggers",
+    "event-based triggers",
+    "session steering",
+    "slash schedule command"
+  ],
+  "concepts": [
+    "proactive agents",
+    "reactive agents",
+    "managed infrastructure",
+    "human-in-the-loop",
+    "human-out-of-the-loop",
+    "generator-critiquer pattern",
+    "multi-agent systems",
+    "agent-on-agent review",
+    "session steerability",
+    "context provision"
+  ],
+  "people": [
+    "Maya",
+    "Sarah"
+  ],
+  "papers_or_docs": []
+}

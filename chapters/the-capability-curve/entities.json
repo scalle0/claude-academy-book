@@ -1,0 +1,45 @@
+{
+  "products": [
+    "Claude",
+    "Claude Code",
+    "Claude.ai",
+    "VS Code",
+    "Bun",
+    "Vercel"
+  ],
+  "features": [
+    "auto mode",
+    "adaptive thinking",
+    "effort parameter",
+    "test time compute",
+    "reasoning models",
+    "context window"
+  ],
+  "concepts": [
+    "capability curve",
+    "scaffolding",
+    "harness",
+    "doom looping",
+    "long-horizon agents",
+    "agent loop",
+    "autonomous agents",
+    "evaluations",
+    "benchmarks",
+    "tool calls",
+    "thinking tokens",
+    "test time compute"
+  ],
+  "people": [
+    "Jeremy",
+    "Dario",
+    "Jared"
+  ],
+  "papers_or_docs": [
+    "SweeBench verified",
+    "BrowseCore",
+    "BrowseComp",
+    "TerminalBench",
+    "engineering blog",
+    "docs.claude.com"
+  ]
+}

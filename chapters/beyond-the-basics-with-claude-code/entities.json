@@ -1,0 +1,48 @@
+{
+  "products": [
+    "Claude Code",
+    "VS Code",
+    "Slack",
+    "NPM",
+    "Git",
+    "Arduino"
+  ],
+  "features": [
+    "MCP",
+    "hooks",
+    "skills",
+    "agents",
+    "slash loop",
+    "permissions mode",
+    "auto mode",
+    "remote control",
+    "tool search",
+    "KV cache",
+    "work trees",
+    "agent teams",
+    "send message tool"
+  ],
+  "concepts": [
+    "context window",
+    "agentic harness",
+    "zero-overhead abstractions",
+    "in-context learning",
+    "ICL",
+    "red squigglies",
+    "bitter lesson",
+    "frontier models",
+    "monorepos",
+    "context engineering",
+    "LSP",
+    "CI/CD"
+  ],
+  "people": [
+    "Daisy Holman"
+  ],
+  "papers_or_docs": [
+    "papers from late 2025 about fine tuning leading to hallucinations",
+    "bitter lesson",
+    "Claude Code blog post about permissions mode",
+    "docs.claude.com"
+  ]
+}

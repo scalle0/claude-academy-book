@@ -1,0 +1,57 @@
+{
+  "products": [
+    "Claude Code",
+    "Claude Platform",
+    "Claude Managed Agents",
+    "Claude Security",
+    "Claude Design",
+    "VS Code",
+    "TI-83 calculator",
+    "Claude desktop app",
+    "Claude Agent SDK"
+  ],
+  "features": [
+    "MCP",
+    "MCP tunnels",
+    "self-hosted sandboxes",
+    "routines",
+    "advisor strategy",
+    "multi-agent orchestration",
+    "outcomes",
+    "dreaming",
+    "AutoFix",
+    "remote control",
+    "agent view",
+    "computer use",
+    "tool use"
+  ],
+  "concepts": [
+    "KV cache",
+    "context window",
+    "task horizon",
+    "scaffolding",
+    "sub-agents",
+    "hooks",
+    "agentic loops",
+    "exponential",
+    "judgment",
+    "continuous work"
+  ],
+  "people": [
+    "Boris",
+    "Lisa",
+    "Angela",
+    "Caitlin",
+    "Kat",
+    "Forrest Cherney",
+    "Nicholas Gustafson",
+    "Felicia Corcoru",
+    "Andrew McNamara",
+    "Oscar Mullen",
+    "Gabe"
+  ],
+  "papers_or_docs": [
+    "OpenBSD source tree vulnerability",
+    "TI-Basic programming guide"
+  ]
+}

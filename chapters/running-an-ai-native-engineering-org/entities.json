@@ -1,0 +1,34 @@
+{
+  "products": [
+    "Claude",
+    "Claude Code",
+    "Claude Co-work",
+    "Visual Studio",
+    "VS Code",
+    "Claude Code review",
+    "Claude Design"
+  ],
+  "features": [
+    "routines",
+    "continuous build",
+    "MCP"
+  ],
+  "concepts": [
+    "test driven development",
+    "code ownership",
+    "refactoring",
+    "verification",
+    "onboarding",
+    "PR cycle time",
+    "bottlenecks",
+    "org shape",
+    "dogfooding",
+    "antfooding"
+  ],
+  "people": [
+    "Fiona Fung",
+    "Boris",
+    "Kat"
+  ],
+  "papers_or_docs": []
+}

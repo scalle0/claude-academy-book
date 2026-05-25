@@ -1,0 +1,39 @@
+{
+  "products": [
+    "Claude Code",
+    "Base44",
+    "Wix",
+    "VS Code",
+    "PostHoc",
+    "BigQuery",
+    "GitHub",
+    "Stage Hand",
+    "Mixpanel"
+  ],
+  "features": [
+    "MCP",
+    "skills",
+    "browser automation",
+    "user simulator",
+    "frustration classification",
+    "AB testing",
+    "evaluation pipeline",
+    "QA automation"
+  ],
+  "concepts": [
+    "hypergrowth scaling",
+    "visual coding platform",
+    "agentic flow",
+    "conversion rate",
+    "experimentation at scale",
+    "CI/CD pipeline",
+    "quality assurance",
+    "dogfooding"
+  ],
+  "people": [
+    "Yoav",
+    "Gabriel",
+    "Moor"
+  ],
+  "papers_or_docs": []
+}

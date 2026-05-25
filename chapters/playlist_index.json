@@ -1,0 +1,222 @@
+{
+  "created": "2026-05-25T10:46:06+00:00",
+  "videos": {
+    "6amLO7I9xdg": {
+      "slug": "code-with-claude-london-2026-opening-keynote",
+      "title": "Code with Claude London 2026: Opening Keynote",
+      "url": "https://www.youtube.com/watch?v=6amLO7I9xdg",
+      "status": "done",
+      "attempted_at": "2026-05-25T10:46:07+00:00",
+      "transcript": "chapters\\code-with-claude-london-2026-opening-keynote\\source\\transcript.txt",
+      "finished_at": "2026-05-25T10:53:48+00:00"
+    },
+    "tuY2ChJIx48": {
+      "slug": "beyond-the-basics-with-claude-code",
+      "title": "Beyond the basics with Claude Code",
+      "url": "https://www.youtube.com/watch?v=tuY2ChJIx48",
+      "status": "done",
+      "attempted_at": "2026-05-25T10:53:48+00:00",
+      "transcript": "chapters\\beyond-the-basics-with-claude-code\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:05:10+00:00"
+    },
+    "IA5LWIGqnyM": {
+      "slug": "running-an-ai-native-engineering-org",
+      "title": "Running an AI-native engineering org",
+      "url": "https://www.youtube.com/watch?v=IA5LWIGqnyM",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:05:10+00:00",
+      "transcript": "chapters\\running-an-ai-native-engineering-org\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:10:19+00:00"
+    },
+    "QIriO1-vHYw": {
+      "slug": "getting-more-out-of-the-claude-platform",
+      "title": "Getting more out of the Claude Platform",
+      "url": "https://www.youtube.com/watch?v=QIriO1-vHYw",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:10:19+00:00",
+      "transcript": "chapters\\getting-more-out-of-the-claude-platform\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:17:06+00:00"
+    },
+    "G2B0YWuJUgI": {
+      "slug": "the-prompting-playbook",
+      "title": "The prompting playbook",
+      "url": "https://www.youtube.com/watch?v=G2B0YWuJUgI",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:17:06+00:00",
+      "transcript": "chapters\\the-prompting-playbook\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:24:50+00:00"
+    },
+    "DNRddIEoH3c": {
+      "slug": "the-capability-curve",
+      "title": "The capability curve",
+      "url": "https://www.youtube.com/watch?v=DNRddIEoH3c",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:24:50+00:00",
+      "transcript": "chapters\\the-capability-curve\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:31:54+00:00"
+    },
+    "Uvl-tRga98g": {
+      "slug": "designing-with-claude-from-prompt-to-production",
+      "title": "Designing with Claude: From prompt to production",
+      "url": "https://www.youtube.com/watch?v=Uvl-tRga98g",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:31:54+00:00",
+      "transcript": "chapters\\designing-with-claude-from-prompt-to-production\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:38:28+00:00"
+    },
+    "l8fxVYIP4HQ": {
+      "slug": "building-with-claude-on-google-cloud",
+      "title": "Building with Claude on Google Cloud",
+      "url": "https://www.youtube.com/watch?v=l8fxVYIP4HQ",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:38:28+00:00",
+      "transcript": "chapters\\building-with-claude-on-google-cloud\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:43:03+00:00"
+    },
+    "EOg4gY0Yln0": {
+      "slug": "building-signals-that-trade-themselves",
+      "title": "Building signals that trade themselves",
+      "url": "https://www.youtube.com/watch?v=EOg4gY0Yln0",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:43:03+00:00",
+      "transcript": "chapters\\building-signals-that-trade-themselves\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:48:02+00:00"
+    },
+    "P0uMXS6emHA": {
+      "slug": "picking-the-right-model",
+      "title": "Picking the right model",
+      "url": "https://www.youtube.com/watch?v=P0uMXS6emHA",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:48:02+00:00",
+      "transcript": "chapters\\picking-the-right-model\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:54:52+00:00"
+    },
+    "IGo225tfF2I": {
+      "slug": "memory-and-dreaming-for-self-learning-agents",
+      "title": "Memory and dreaming for self learning agents",
+      "url": "https://www.youtube.com/watch?v=IGo225tfF2I",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:54:52+00:00",
+      "transcript": "chapters\\memory-and-dreaming-for-self-learning-agents\\source\\transcript.txt",
+      "finished_at": "2026-05-25T11:59:36+00:00"
+    },
+    "nho1YAEPuwA": {
+      "slug": "what-legal-agents-inherit-from-coding-agents-lessons-from-le",
+      "title": "What legal agents inherit from coding agents: Lessons from Legora",
+      "url": "https://www.youtube.com/watch?v=nho1YAEPuwA",
+      "status": "done",
+      "attempted_at": "2026-05-25T11:59:36+00:00",
+      "transcript": "chapters\\what-legal-agents-inherit-from-coding-agents-lessons-from-le\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:06:32+00:00"
+    },
+    "zenIB7XLZxQ": {
+      "slug": "how-to-get-to-production-faster-with-claude-managed-agents",
+      "title": "How to get to production faster with Claude Managed Agents",
+      "url": "https://www.youtube.com/watch?v=zenIB7XLZxQ",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:06:32+00:00",
+      "transcript": "chapters\\how-to-get-to-production-faster-with-claude-managed-agents\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:12:41+00:00"
+    },
+    "jWWsLe4Gh5Y": {
+      "slug": "build-a-production-ready-agent-with-claude-managed-agents",
+      "title": "Build a production-ready agent with Claude Managed Agents",
+      "url": "https://www.youtube.com/watch?v=jWWsLe4Gh5Y",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:12:41+00:00",
+      "transcript": "chapters\\build-a-production-ready-agent-with-claude-managed-agents\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:17:42+00:00"
+    },
+    "T7KqH7kYnE4": {
+      "slug": "the-thinking-lever",
+      "title": "The thinking lever",
+      "url": "https://www.youtube.com/watch?v=T7KqH7kYnE4",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:17:42+00:00",
+      "transcript": "chapters\\the-thinking-lever\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:23:01+00:00"
+    },
+    "mhW-XXnDFSU": {
+      "slug": "how-lovable-vibecodes-production-software-at-scale",
+      "title": "How Lovable vibecodes production software at scale",
+      "url": "https://www.youtube.com/watch?v=mhW-XXnDFSU",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:23:01+00:00",
+      "transcript": "chapters\\how-lovable-vibecodes-production-software-at-scale\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:30:19+00:00"
+    },
+    "XFaeIbL-lvE": {
+      "slug": "building-ai-native-at-enterprise-scale-monday-com-doctolib-a",
+      "title": "Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero",
+      "url": "https://www.youtube.com/watch?v=XFaeIbL-lvE",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:30:19+00:00",
+      "transcript": "chapters\\building-ai-native-at-enterprise-scale-monday-com-doctolib-a\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:36:37+00:00"
+    },
+    "VueeyKcquoA": {
+      "slug": "from-one-person-to-80-scaling-a-hypergrowth-engineering-org",
+      "title": "From one person to 80: Scaling a hypergrowth engineering org with Claude Code",
+      "url": "https://www.youtube.com/watch?v=VueeyKcquoA",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:36:37+00:00",
+      "transcript": "chapters\\from-one-person-to-80-scaling-a-hypergrowth-engineering-org\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:43:17+00:00"
+    },
+    "eSP7PLTXNy8": {
+      "slug": "build-a-proactive-agent-workflow-with-claude-code",
+      "title": "Build a proactive agent workflow with Claude Code",
+      "url": "https://www.youtube.com/watch?v=eSP7PLTXNy8",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:43:17+00:00",
+      "transcript": "chapters\\build-a-proactive-agent-workflow-with-claude-code\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:47:18+00:00"
+    },
+    "TQd_YQvydVg": {
+      "slug": "build-ai-agents-using-claude-in-microsoft-foundry",
+      "title": "Build AI agents using Claude in Microsoft Foundry",
+      "url": "https://www.youtube.com/watch?v=TQd_YQvydVg",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:47:18+00:00",
+      "transcript": "chapters\\build-ai-agents-using-claude-in-microsoft-foundry\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:56:27+00:00"
+    },
+    "zFslvuvYifQ": {
+      "slug": "coding-is-no-longer-the-constraint-scaling-devex-to-teams-an",
+      "title": "Coding is no longer the constraint: Scaling devex to teams and agents at Spotify",
+      "url": "https://www.youtube.com/watch?v=zFslvuvYifQ",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:56:27+00:00",
+      "transcript": "chapters\\coding-is-no-longer-the-constraint-scaling-devex-to-teams-an\\source\\transcript.txt",
+      "finished_at": "2026-05-25T12:59:39+00:00"
+    },
+    "5YHIrTYxM3w": {
+      "slug": "ai-with-claude-on-aws-from-code-to-orchestration",
+      "title": "AI with Claude on AWS: From code to orchestration",
+      "url": "https://www.youtube.com/watch?v=5YHIrTYxM3w",
+      "status": "done",
+      "attempted_at": "2026-05-25T12:59:39+00:00",
+      "transcript": "chapters\\ai-with-claude-on-aws-from-code-to-orchestration\\source\\transcript.txt",
+      "finished_at": "2026-05-25T13:04:16+00:00"
+    },
+    "wI0ptqCSL0I": {
+      "slug": "stop-babysitting-your-agents",
+      "title": "Stop babysitting your agents",
+      "url": "https://www.youtube.com/watch?v=wI0ptqCSL0I",
+      "status": "done",
+      "attempted_at": "2026-05-25T13:04:16+00:00",
+      "transcript": "chapters\\stop-babysitting-your-agents\\source\\transcript.txt",
+      "finished_at": "2026-05-25T13:11:53+00:00"
+    },
+    "sRvUXLquiRg": {
+      "slug": "what-s-new-in-claude-code",
+      "title": "What's new in Claude Code",
+      "url": "https://www.youtube.com/watch?v=sRvUXLquiRg",
+      "status": "done",
+      "attempted_at": "2026-05-25T13:11:53+00:00",
+      "transcript": "chapters\\what-s-new-in-claude-code\\source\\transcript.txt",
+      "finished_at": "2026-05-25T13:17:41+00:00"
+    }
+  },
+  "updated": "2026-05-25T13:17:41+00:00"
+}

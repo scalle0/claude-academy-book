@@ -1,0 +1,29 @@
+{
+  "products": [
+    "Claude",
+    "Claude Code"
+  ],
+  "features": [
+    "skills",
+    "MCP",
+    "evals",
+    "plugins"
+  ],
+  "concepts": [
+    "systematic trading",
+    "trading signals",
+    "backtesting",
+    "skills governance",
+    "institutional knowledge",
+    "alternative data",
+    "Sharpe ratio",
+    "drawdown",
+    "annualized return",
+    "distributed compute",
+    "agentic platform"
+  ],
+  "people": [
+    "Tashara Fernando"
+  ],
+  "papers_or_docs": []
+}

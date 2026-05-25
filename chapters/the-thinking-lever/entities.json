@@ -1,0 +1,40 @@
+{
+  "products": [
+    "Claude Code",
+    "Claude.ai",
+    "Claude Opus 47",
+    "Claude Haiku 4.5"
+  ],
+  "features": [
+    "MCP",
+    "test time compute",
+    "thinking",
+    "tool calling",
+    "adaptive thinking",
+    "interleaved thinking",
+    "effort levels",
+    "budgets",
+    "task budgets"
+  ],
+  "concepts": [
+    "train time compute",
+    "test time compute",
+    "reasoning models",
+    "token allocation",
+    "inference time",
+    "effort dial",
+    "Pareto efficient",
+    "diminishing marginal returns",
+    "intelligence bound"
+  ],
+  "people": [
+    "Alexander Bricken"
+  ],
+  "papers_or_docs": [
+    "D-SERP QA",
+    "OS World",
+    "Humanity's last exam",
+    "ClaudePlaysPokemon",
+    "Mithos"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "products": [
+    "Claude",
+    "Claude Sonnet 3.5",
+    "Claude Opus 3",
+    "VS Code"
+  ],
+  "features": [
+    "adaptive thinking",
+    "structured outputs",
+    "stop sequences",
+    "XML tags",
+    "tools",
+    "API calls",
+    "max tokens"
+  ],
+  "concepts": [
+    "prompt engineering",
+    "evaluation suites",
+    "agentic systems",
+    "generate-evaluate-repair loops",
+    "token efficiency",
+    "latency optimization",
+    "hallucinations",
+    "instruction following",
+    "capability boundaries",
+    "soft constraints",
+    "hard constraints"
+  ],
+  "people": [
+    "Margot van Laar"
+  ],
+  "papers_or_docs": [
+    "docs.claude.com"
+  ]
+}

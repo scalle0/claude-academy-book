@@ -1,0 +1,61 @@
+{
+  "products": [
+    "Claude Code",
+    "Amazon Web Services",
+    "AWS",
+    "Amazon Bedrock",
+    "Claude Platform",
+    "Claude desktop",
+    "Visual Studio Code",
+    "Scaledraw",
+    "Playwright MCP",
+    "Amazon Bedrock Agent Core",
+    "Claude Agent SDK",
+    "CloudWatch",
+    "CloudTrail",
+    "AWS Marketplace"
+  ],
+  "features": [
+    "MCP",
+    "hooks",
+    "skills",
+    "fine-tuning",
+    "guardrails",
+    "knowledge bases",
+    "private link",
+    "zero operator access",
+    "sub-agents",
+    "plugins",
+    "custom skills",
+    "auto reporting",
+    "telemetry",
+    "rate limiting"
+  ],
+  "concepts": [
+    "data sovereignty",
+    "consolidated billing",
+    "observability",
+    "SLAs",
+    "IAM roles",
+    "single sign-on",
+    "compliance regulations",
+    "infinite scalability",
+    "regional deployment",
+    "GDPR",
+    "content filters",
+    "hallucination control",
+    "PII masking",
+    "automated reasoning checks"
+  ],
+  "people": [
+    "Antonio Rodriguez"
+  ],
+  "papers_or_docs": [
+    "join.workshop.aws",
+    "FedRAMP",
+    "HIPAA",
+    "Project Rainier",
+    "Tranium chipsets",
+    "Introduction to Claude Code on AWS workshop"
+  ]
+}

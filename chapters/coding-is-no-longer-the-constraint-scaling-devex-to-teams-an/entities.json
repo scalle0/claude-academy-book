@@ -1,0 +1,40 @@
+{
+  "products": [
+    "Claude Code",
+    "Spotify",
+    "Backstage",
+    "Fleet Shift",
+    "Honk",
+    "Chirp",
+    "VS Code"
+  ],
+  "features": [
+    "Agent SDK",
+    "Fleet Management",
+    "MCP",
+    "Sound Check",
+    "Golden State",
+    "Technology Radar",
+    "Slack integration",
+    "Multiplayer agent sessions"
+  ],
+  "concepts": [
+    "Developer experience",
+    "Monorepo",
+    "Polyrepo",
+    "PR frequency",
+    "Static analysis",
+    "Linting",
+    "CI environment",
+    "Kubernetes pods",
+    "gRPC",
+    "Hiram's law"
+  ],
+  "people": [
+    "Niklas",
+    "Boris"
+  ],
+  "papers_or_docs": [
+    "Hiram's law"
+  ]
+}

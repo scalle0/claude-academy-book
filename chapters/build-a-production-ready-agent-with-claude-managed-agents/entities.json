@@ -1,0 +1,48 @@
+{
+  "products": [
+    "Claude Managed Agents",
+    "Claude Code",
+    "Claude.ai",
+    "Anthropic SDK",
+    "Linear",
+    "Figma MCP",
+    "Cloudflare",
+    "Modal",
+    "Vercel",
+    "VS Code"
+  ],
+  "features": [
+    "MCP",
+    "self-hosted sandboxes",
+    "MCP tunnels",
+    "credential vaults",
+    "memory stores",
+    "multi-agent coordination",
+    "outcomes",
+    "tool calling",
+    "bash tool",
+    "web search",
+    "file read tool",
+    "context management",
+    "observability"
+  ],
+  "concepts": [
+    "context window",
+    "event streams",
+    "session lifecycle",
+    "agent templates",
+    "environment configuration",
+    "permission controls",
+    "human in the loop",
+    "VPC",
+    "network perimeter",
+    "retries",
+    "error recovery",
+    "span events"
+  ],
+  "people": [],
+  "papers_or_docs": [
+    "docs.claude.com",
+    "Claude Managed Agents developer documentation"
+  ]
+}
