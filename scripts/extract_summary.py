@@ -475,7 +475,7 @@ def _is_notable_quote(sent: str) -> bool:
 # ----------------------------------------------------------------------
 
 def extract_with_claude(
-    text: str, metadata: dict, model: str = "claude-sonnet-4-6-20260525"
+    text: str, metadata: dict, model: str = "claude-sonnet-4-6"
 ) -> tuple[str, dict, str]:
     """
     Use the Anthropic API for abstractive summary, entity extraction,
@@ -700,8 +700,8 @@ def parse_args() -> argparse.Namespace:
     )
     ap.add_argument(
         "--model",
-        default="claude-sonnet-4-6-20260525",
-        help="Anthropic model to use in Claude mode. Default: claude-sonnet-4-6-20260525.",
+        default="claude-sonnet-4-6",
+        help="Anthropic model to use in Claude mode. Default: claude-sonnet-4-6.",
     )
     ap.add_argument(
         "--force",
