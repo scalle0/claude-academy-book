@@ -338,7 +338,7 @@ def enrich_with_claude(
     entities: list[str],
     doc_pages: dict[str, str],
     metadata: dict,
-    model: str = "claude-sonnet-4-20250514",
+    model: str = "claude-sonnet-4-6-20260525",
 ) -> str:
     """
     Send entities + fetched documentation to Claude API.
@@ -533,8 +533,8 @@ def parse_args() -> argparse.Namespace:
     )
     ap.add_argument(
         "--model",
-        default="claude-sonnet-4-20250514",
-        help="Anthropic model for enrichment. Default: claude-sonnet-4-20250514.",
+        default="claude-sonnet-4-6-20260525",
+        help="Anthropic model for enrichment. Default: claude-sonnet-4-6-20260525.",
     )
     ap.add_argument(
         "--force",
