@@ -339,6 +339,8 @@ def enrich_with_claude(
     doc_pages: dict[str, str],
     metadata: dict,
     model: str = "claude-sonnet-4-6",
+    summary_text: str = "",
+    quotes_text: str = "",
 ) -> str:
     """
     Send entities + fetched documentation to Claude API.
@@ -383,15 +385,23 @@ def enrich_with_claude(
     for entity in entities:
         entity_to_urls[entity] = ENTITY_URL_MAP.get(entity, [])
 
-    prompt = f"""You are writing enrichment notes for a book chapter derived from a conference talk.
+    # Build summary/quotes context for improvement suggestions
+    extra_context = ""
+    if summary_text:
+        extra_context += f"\n\nChapter summary (from step 2):\n{summary_text[:3000]}"
+    if quotes_text:
+        extra_context += f"\n\nNotable quotes from transcript:\n{quotes_text[:2000]}"
+
+    prompt = f"""You are writing enrichment notes for a book chapter derived from a conference talk. This is a personal technical reference book (audience: senior engineer, voice: dry, like docs.claude.com).
 
 Talk title: {title}
 Talk date: {upload_date}
 Entities to enrich: {json.dumps(entity_to_urls, indent=2)}
+{extra_context}
 
-The talk was recorded on the date above. Speakers describe features as they existed at recording time. The documentation below is CURRENT (fetched today). Your job is to compare and flag differences.
+The talk was recorded on the date above. Speakers describe features as they existed at recording time. The documentation below is CURRENT (fetched today). Your job is to compare and flag differences, AND suggest improvements for the chapter.
 
-For each entity, write a section in this format:
+PART 1: For each entity, write a section in this format:
 
 ## <Entity Name>
 
@@ -400,6 +410,15 @@ For each entity, write a section in this format:
 **Changes since talk:** what has changed since the talk was recorded (new features, renamed concepts, deprecated functionality, updated model names/versions). Write "No significant changes" if the docs match what a speaker would have said at that time.
 
 **Key details for chapter:** 2-3 bullet points of authoritative current info that the chapter should use.
+
+PART 2: After all entity sections, add a section called "## Improvement opportunities" that suggests where the chapter would benefit from:
+
+- **Code examples**: specific configurations, API calls, or scripts that would illustrate a concept discussed in the talk. Be specific: "MCP server config showing tool definition format" not "add some code."
+- **Diagrams/figures**: architectural diagrams, flow charts, comparison tables, or visual aids. Describe what the diagram should show.
+- **Worked examples**: practical scenarios where a concept could be demonstrated end-to-end.
+- **Comparison tables**: side-by-side comparisons mentioned or implied in the talk (e.g. feature tradeoffs, pricing tiers, model capabilities).
+
+Base these suggestions on the talk's content (summary and quotes above), the entities discussed, and what the current documentation shows. Aim for 4-8 concrete suggestions. Each should name the concept, the type of improvement, and a one-sentence description of what it should contain.
 
 Rules:
 - Be specific. "The API has changed" is not useful. "The messages API now supports citations via the `citations` parameter, added in March 2026" is.
@@ -414,7 +433,7 @@ Here is the current documentation:
     print("    Calling Claude API for enrichment ...", flush=True)
     response = client.messages.create(
         model=model,
-        max_tokens=4096,
+        max_tokens=6000,
         messages=[{"role": "user", "content": prompt}],
     )
 
@@ -489,6 +508,17 @@ def process_chapter(chapter_dir: Path, model: str) -> bool:
         )
         return True
 
+    # Load summary and quotes for improvement suggestions
+    summary_text = ""
+    summary_path = chapter_dir / "summary.md"
+    if summary_path.exists():
+        summary_text = summary_path.read_text(encoding="utf-8")
+
+    quotes_text = ""
+    quotes_path = chapter_dir / "quotes.md"
+    if quotes_path.exists():
+        quotes_text = quotes_path.read_text(encoding="utf-8")
+
     print(f"  Enriching {slug} ({len(enrichable)} entities) ...", flush=True)
 
     # Fetch documentation pages
@@ -500,6 +530,8 @@ def process_chapter(chapter_dir: Path, model: str) -> bool:
         doc_pages=doc_pages,
         metadata=metadata,
         model=model,
+        summary_text=summary_text,
+        quotes_text=quotes_text,
     )
 
     (chapter_dir / "enrichment.md").write_text(enrichment_md, encoding="utf-8")
